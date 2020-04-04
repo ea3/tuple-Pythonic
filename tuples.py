@@ -70,6 +70,22 @@ print(delhi._asdict())
 for key, value, in delhi._asdict().items():
     print(key + ':', value)
 
+l = list(range(10))
+print(l)
+l[2:5] = [20, 30]
+print(l)
+
+
+l = [1, 2, 3]
+print(id(l))
+l *= 2
+print(l)
+tuple1 = (1, 2, 3)
+print(id(tuple1))
+tuple1 *= 2
+print(tuple1)
+print(id(tuple1))
+
 
 
 
